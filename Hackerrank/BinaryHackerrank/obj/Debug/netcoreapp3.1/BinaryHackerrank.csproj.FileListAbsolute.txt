@@ -1,0 +1,13 @@
+C:\Users\Plamen\source\repos\BinaryHackerrank\bin\Debug\netcoreapp3.1\BinaryHackerrank.exe
+C:\Users\Plamen\source\repos\BinaryHackerrank\bin\Debug\netcoreapp3.1\BinaryHackerrank.deps.json
+C:\Users\Plamen\source\repos\BinaryHackerrank\bin\Debug\netcoreapp3.1\BinaryHackerrank.runtimeconfig.json
+C:\Users\Plamen\source\repos\BinaryHackerrank\bin\Debug\netcoreapp3.1\BinaryHackerrank.runtimeconfig.dev.json
+C:\Users\Plamen\source\repos\BinaryHackerrank\bin\Debug\netcoreapp3.1\BinaryHackerrank.dll
+C:\Users\Plamen\source\repos\BinaryHackerrank\bin\Debug\netcoreapp3.1\BinaryHackerrank.pdb
+C:\Users\Plamen\source\repos\BinaryHackerrank\obj\Debug\netcoreapp3.1\BinaryHackerrank.csprojAssemblyReference.cache
+C:\Users\Plamen\source\repos\BinaryHackerrank\obj\Debug\netcoreapp3.1\BinaryHackerrank.AssemblyInfoInputs.cache
+C:\Users\Plamen\source\repos\BinaryHackerrank\obj\Debug\netcoreapp3.1\BinaryHackerrank.AssemblyInfo.cs
+C:\Users\Plamen\source\repos\BinaryHackerrank\obj\Debug\netcoreapp3.1\BinaryHackerrank.csproj.CoreCompileInputs.cache
+C:\Users\Plamen\source\repos\BinaryHackerrank\obj\Debug\netcoreapp3.1\BinaryHackerrank.dll
+C:\Users\Plamen\source\repos\BinaryHackerrank\obj\Debug\netcoreapp3.1\BinaryHackerrank.pdb
+C:\Users\Plamen\source\repos\BinaryHackerrank\obj\Debug\netcoreapp3.1\BinaryHackerrank.genruntimeconfig.cache
