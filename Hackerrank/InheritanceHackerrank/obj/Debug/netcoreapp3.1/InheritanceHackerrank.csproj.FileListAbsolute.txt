@@ -1,0 +1,13 @@
+C:\Users\Plamen\source\repos\InheritanceHackerrank\bin\Debug\netcoreapp3.1\InheritanceHackerrank.exe
+C:\Users\Plamen\source\repos\InheritanceHackerrank\bin\Debug\netcoreapp3.1\InheritanceHackerrank.deps.json
+C:\Users\Plamen\source\repos\InheritanceHackerrank\bin\Debug\netcoreapp3.1\InheritanceHackerrank.runtimeconfig.json
+C:\Users\Plamen\source\repos\InheritanceHackerrank\bin\Debug\netcoreapp3.1\InheritanceHackerrank.runtimeconfig.dev.json
+C:\Users\Plamen\source\repos\InheritanceHackerrank\bin\Debug\netcoreapp3.1\InheritanceHackerrank.dll
+C:\Users\Plamen\source\repos\InheritanceHackerrank\bin\Debug\netcoreapp3.1\InheritanceHackerrank.pdb
+C:\Users\Plamen\source\repos\InheritanceHackerrank\obj\Debug\netcoreapp3.1\InheritanceHackerrank.csprojAssemblyReference.cache
+C:\Users\Plamen\source\repos\InheritanceHackerrank\obj\Debug\netcoreapp3.1\InheritanceHackerrank.AssemblyInfoInputs.cache
+C:\Users\Plamen\source\repos\InheritanceHackerrank\obj\Debug\netcoreapp3.1\InheritanceHackerrank.AssemblyInfo.cs
+C:\Users\Plamen\source\repos\InheritanceHackerrank\obj\Debug\netcoreapp3.1\InheritanceHackerrank.csproj.CoreCompileInputs.cache
+C:\Users\Plamen\source\repos\InheritanceHackerrank\obj\Debug\netcoreapp3.1\InheritanceHackerrank.dll
+C:\Users\Plamen\source\repos\InheritanceHackerrank\obj\Debug\netcoreapp3.1\InheritanceHackerrank.pdb
+C:\Users\Plamen\source\repos\InheritanceHackerrank\obj\Debug\netcoreapp3.1\InheritanceHackerrank.genruntimeconfig.cache
