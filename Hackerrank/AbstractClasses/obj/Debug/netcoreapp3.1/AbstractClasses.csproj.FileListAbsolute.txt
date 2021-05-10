@@ -1,0 +1,4 @@
+C:\Users\Plamen\source\repos\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.csprojAssemblyReference.cache
+C:\Users\Plamen\source\repos\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.AssemblyInfoInputs.cache
+C:\Users\Plamen\source\repos\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.AssemblyInfo.cs
+C:\Users\Plamen\source\repos\AbstractClasses\obj\Debug\netcoreapp3.1\AbstractClasses.csproj.CoreCompileInputs.cache
