@@ -1,0 +1,13 @@
+C:\Users\Plamen\source\repos\DifferenceHackerrank\bin\Debug\netcoreapp3.1\DifferenceHackerrank.exe
+C:\Users\Plamen\source\repos\DifferenceHackerrank\bin\Debug\netcoreapp3.1\DifferenceHackerrank.deps.json
+C:\Users\Plamen\source\repos\DifferenceHackerrank\bin\Debug\netcoreapp3.1\DifferenceHackerrank.runtimeconfig.json
+C:\Users\Plamen\source\repos\DifferenceHackerrank\bin\Debug\netcoreapp3.1\DifferenceHackerrank.runtimeconfig.dev.json
+C:\Users\Plamen\source\repos\DifferenceHackerrank\bin\Debug\netcoreapp3.1\DifferenceHackerrank.dll
+C:\Users\Plamen\source\repos\DifferenceHackerrank\bin\Debug\netcoreapp3.1\DifferenceHackerrank.pdb
+C:\Users\Plamen\source\repos\DifferenceHackerrank\obj\Debug\netcoreapp3.1\DifferenceHackerrank.csprojAssemblyReference.cache
+C:\Users\Plamen\source\repos\DifferenceHackerrank\obj\Debug\netcoreapp3.1\DifferenceHackerrank.AssemblyInfoInputs.cache
+C:\Users\Plamen\source\repos\DifferenceHackerrank\obj\Debug\netcoreapp3.1\DifferenceHackerrank.AssemblyInfo.cs
+C:\Users\Plamen\source\repos\DifferenceHackerrank\obj\Debug\netcoreapp3.1\DifferenceHackerrank.csproj.CoreCompileInputs.cache
+C:\Users\Plamen\source\repos\DifferenceHackerrank\obj\Debug\netcoreapp3.1\DifferenceHackerrank.dll
+C:\Users\Plamen\source\repos\DifferenceHackerrank\obj\Debug\netcoreapp3.1\DifferenceHackerrank.pdb
+C:\Users\Plamen\source\repos\DifferenceHackerrank\obj\Debug\netcoreapp3.1\DifferenceHackerrank.genruntimeconfig.cache
