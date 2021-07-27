@@ -1,0 +1,6 @@
+C:\Users\Plamen\source\repos\SocketAsync2\bin\Debug\SocketAsync2.dll
+C:\Users\Plamen\source\repos\SocketAsync2\bin\Debug\SocketAsync2.pdb
+C:\Users\Plamen\source\repos\SocketAsync2\obj\Debug\SocketAsync2.csproj.AssemblyReference.cache
+C:\Users\Plamen\source\repos\SocketAsync2\obj\Debug\SocketAsync2.csproj.CoreCompileInputs.cache
+C:\Users\Plamen\source\repos\SocketAsync2\obj\Debug\SocketAsync2.dll
+C:\Users\Plamen\source\repos\SocketAsync2\obj\Debug\SocketAsync2.pdb
