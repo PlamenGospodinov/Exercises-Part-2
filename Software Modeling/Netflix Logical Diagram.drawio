@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T20:14:51.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="Ycx-hODBrWeplLWiHhUd" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T20:22:48.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.55 Safari/537.36 Edg/96.0.1054.43" etag="yYs__vNZdZeIozdYpj_g" version="15.9.4" type="github">
   <diagram id="uWsPakvDBmtAWFA21BX1" name="Page-1">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -13,14 +13,14 @@
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-3" value="TV Shows" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="490" y="20" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-4" value="+TV Show ID - int(PK)&#xa;TV Show Title - varchar&#xa;Release Date - date&#xa;Rating- decimal(2,1)&#xa;Resume - varchar&#xa;Collection(FK) - varchar&#xa;Genre - varchar(FK)&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-3" vertex="1">
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-4" value="+TV Show ID - int(PK)&#xa;TV Show Title - varchar&#xa;Release Date - date&#xa;Rating- decimal(2,1)&#xa;Resume - varchar&#xa;CollectionID(FK) - int&#xa;GenreID - int (FK)&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-3" vertex="1">
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-5" value="Movies" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="490" y="250" width="160" height="130" as="geometry" />
+          <mxGeometry x="490" y="250" width="160" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-6" value="+Movie ID - int(PK)&#xa;Movie Title - varchar&#xa;Release Date - date&#xa;Rating - decimal - (2,1)&#xa;Resume - varchar&#xa;Genre - varchar(FK)&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-5" vertex="1">
-          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-6" value="+Movie ID - int(PK)&#xa;Movie Title - varchar&#xa;Release Date - date&#xa;Rating - decimal - (2,1)&#xa;Resume - varchar&#xa;CollectionID(FK) - int &#xa;GenreID - int(FK)&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-5" vertex="1">
+          <mxGeometry y="30" width="160" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ISnNZ_Wo0CkUiuiWw7Ft-2" target="ISnNZ_Wo0CkUiuiWw7Ft-4" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
