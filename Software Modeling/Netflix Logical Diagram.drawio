@@ -1,25 +1,25 @@
-<mxfile host="app.diagrams.net" modified="2021-12-10T11:17:07.365Z" agent="5.0 (Windows)" etag="p4I7eleVBxXA8A3FDM0T" version="15.9.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-10T12:48:16.474Z" agent="5.0 (Windows)" etag="9rYn0RbSRgBd23XkozX6" version="15.9.4" type="github">
   <diagram id="uWsPakvDBmtAWFA21BX1" name="Page-1">
     <mxGraphModel dx="1574" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-1" value="Genre" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="110" y="100" width="160" height="120" as="geometry" />
+          <mxGeometry x="110" y="100" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-2" value="+Genre ID&#xa;Genre Description&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-1" vertex="1">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-2" value="+Genre ID - int(PK)&#xa;Genre Description - varchar&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-1" vertex="1">
+          <mxGeometry y="30" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-3" value="TV Shows" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="490" y="20" width="160" height="130" as="geometry" />
+          <mxGeometry x="490" y="20" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-4" value="+TV Show ID&#xa;TV Show Title&#xa;Release Date&#xa;Rating&#xa;Resume&#xa;Genre&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-3" vertex="1">
-          <mxGeometry y="30" width="160" height="100" as="geometry" />
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-4" value="+TV Show ID - int(PK)&#xa;TV Show Title - varchar&#xa;Release Date - date&#xa;Rating- decimal(2,1)&#xa;Resume - varchar&#xa;Collection(FK) - varchar&#xa;Genre - varchar(FK)&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-3" vertex="1">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-5" value="Movies" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="490" y="250" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-6" value="+Movie ID&#xa;Movie Title&#xa;Release Date&#xa;Rating&#xa;Resume&#xa;Genre&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-5" vertex="1">
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-6" value="+Movie ID - int(PK)&#xa;Movie Title - varchar&#xa;Release Date - date&#xa;Rating - decimal - (2,1)&#xa;Resume - varchar&#xa;Genre - varchar(FK)&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-5" vertex="1">
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ISnNZ_Wo0CkUiuiWw7Ft-2" target="ISnNZ_Wo0CkUiuiWw7Ft-4" edge="1">
@@ -37,7 +37,7 @@
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-9" value="Collection" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="720" y="130" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-10" value="+Collection ID&#xa;Collection Name&#xa;Content List&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-9" vertex="1">
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-10" value="+Collection ID - int(PK)&#xa;Collection Name - varchar&#xa;Content List - varchar&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-9" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-11" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;startArrow=ERzeroToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="ISnNZ_Wo0CkUiuiWw7Ft-4" target="ISnNZ_Wo0CkUiuiWw7Ft-10" edge="1">
@@ -55,14 +55,14 @@
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-13" value="Subscription" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="330" y="600" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-14" value="Subscription Date&#xa;Subscription Type&#xa;Price&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-13" vertex="1">
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-14" value="Sunscription ID - int(PK)&#xa;&#xa;Subscription Date - date&#xa;Subscription Type - varchar&#xa;Price - decimal(3,2)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-13" vertex="1">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-15" value="Subscription Type" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="70" y="490" width="160" height="120" as="geometry" />
+          <mxGeometry x="70" y="490" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-16" value="Resolution&#xa;Video quality&#xa;Allowed number of devices&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-15" vertex="1">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-16" value="Resolution - int&#xa;Video quality - int&#xa;Allowed number of devices - int&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-15" vertex="1">
+          <mxGeometry y="30" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-17" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ISnNZ_Wo0CkUiuiWw7Ft-15" target="ISnNZ_Wo0CkUiuiWw7Ft-14" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -73,7 +73,7 @@
         <mxCell id="9_1Muu3frSbeQLm1UMuF-1" value="Customer User Account" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="680" y="590" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="9_1Muu3frSbeQLm1UMuF-2" value="+Customer ID&#xa;First Name&#xa;Last Name&#xa;Email&#xa;Address&#xa;Phone Number&#xa;Password&#xa;Created In&#xa;Last Sign On&#xa;Collections&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9_1Muu3frSbeQLm1UMuF-1">
+        <mxCell id="9_1Muu3frSbeQLm1UMuF-2" value="+Customer ID - int(PK)&#xa;First Name - varchar&#xa;Last Name -varchar&#xa;Email -varchar&#xa;Address -varchar(FK)&#xa;Phone Number -varchar&#xa;Password -varchar&#xa;Created In - date&#xa;Last Sign On - date&#xa;Collections - varchar&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9_1Muu3frSbeQLm1UMuF-1">
           <mxGeometry y="30" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="9_1Muu3frSbeQLm1UMuF-3" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ISnNZ_Wo0CkUiuiWw7Ft-14" target="9_1Muu3frSbeQLm1UMuF-2">
@@ -83,10 +83,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9_1Muu3frSbeQLm1UMuF-4" value="Address" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="990" y="600" width="160" height="120" as="geometry" />
+          <mxGeometry x="990" y="600" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9_1Muu3frSbeQLm1UMuF-5" value="Country&#xa;City&#xa;Street&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9_1Muu3frSbeQLm1UMuF-4">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="9_1Muu3frSbeQLm1UMuF-5" value="Address ID - int(PK)&#xa;Country - varcharCity - varchar&#xa;Street - varchar&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9_1Muu3frSbeQLm1UMuF-4">
+          <mxGeometry y="30" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9_1Muu3frSbeQLm1UMuF-6" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_1Muu3frSbeQLm1UMuF-2" target="9_1Muu3frSbeQLm1UMuF-5">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -97,7 +97,7 @@
         <mxCell id="9_1Muu3frSbeQLm1UMuF-7" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="470" y="420" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="9_1Muu3frSbeQLm1UMuF-8" value="+Payment ID&#xa;Payment Method&#xa;Payment Date&#xa;Amount Due&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9_1Muu3frSbeQLm1UMuF-7">
+        <mxCell id="9_1Muu3frSbeQLm1UMuF-8" value="+Payment ID - int(PK)&#xa;Payment Method - varchar&#xa;Payment Date - date&#xa;Amount Due - decimal(3,2)&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="9_1Muu3frSbeQLm1UMuF-7">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9_1Muu3frSbeQLm1UMuF-9" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmandOne;startArrow=ERmandOne;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9_1Muu3frSbeQLm1UMuF-8" target="9_1Muu3frSbeQLm1UMuF-2">
