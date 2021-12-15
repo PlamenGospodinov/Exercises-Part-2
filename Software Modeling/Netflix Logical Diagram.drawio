@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-14T10:56:02.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="RSu7q47SmsnK4pNCXrp_" version="15.9.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-12-15T18:42:20.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36 Edg/96.0.1054.53" etag="95rqqp505iFtVxQ90OMG" version="15.9.6" type="github">
   <diagram id="uWsPakvDBmtAWFA21BX1" name="Page-1">
     <mxGraphModel dx="1038" dy="2883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-1" value="Genre" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="260" width="180" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-2" value="+Genre ID - int(PK)&#xa;Genre Description - varchar&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-1" vertex="1">
+        <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-2" value="+Genre ID - int(PK)&#xa;Genre Name -varchar&#xa;Genre Description - varchar&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="ISnNZ_Wo0CkUiuiWw7Ft-1" vertex="1">
           <mxGeometry y="30" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ISnNZ_Wo0CkUiuiWw7Ft-3" value="TV Shows" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
