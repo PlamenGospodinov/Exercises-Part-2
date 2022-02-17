@@ -23,6 +23,8 @@ public class Main {
 		System.out.println(list.removeAt(1));
 		
 		//Brackets exercise
+		/*
+		
 		Scanner scan = new Scanner(System.in);
 		
 		String line = scan.nextLine();
@@ -36,7 +38,7 @@ public class Main {
 				int oppeningScopeIndex = bracketsIndices.pop();
 				System.out.println(line.substring(oppeningScopeIndex, i + 1));
 			}
-		}
+		}*/
 		
 		//Trying CustomLinkedList
 		CustomLinkedList<String> linkedList = new CustomLinkedList<>();
@@ -51,7 +53,23 @@ public class Main {
 		removeFirst = linkedList.removeFirst();
 		System.out.println(removeFirst);
 		removeFirst = linkedList.removeFirst();
-		System.out.println(removeFirst);
+		/*System.out.println(removeFirst);
 		removeFirst = linkedList.removeFirst();
+		*/
+		//Trying CustomDoublyLinkedList
+		CustomDoublyLinkedList<String> linkedDoublyList = new CustomDoublyLinkedList<>();
+		
+		linkedDoublyList.addFirst("Ivan");
+		linkedDoublyList.addFirst("Georgi");
+		linkedDoublyList.addFirst("Hristina");
+		
+		System.out.println(linkedDoublyList.size());
+		String removeDoublyFirst = linkedDoublyList.removeFirst();
+		System.out.println(removeDoublyFirst);
+		//removeDoublyFirst = linkedDoublyList.removeFirst();
+		//System.out.println(removeDoublyFirst);
+		//removeDoublyFirst = linkedDoublyList.removeFirst();
+		/*System.out.println(removeDoublyFirst);
+		removeDoublyFirst = linkedDoublyList.removeFirst();*/
 	}
 }
